@@ -18,3 +18,9 @@ In your `package.json` add the following line:
     "prettier": "@becklyn/prettier"
 }
 ```
+
+You will have to install prettier as a dev dependency, too
+
+```
+npm install --save-dev prettier
+```
