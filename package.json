@@ -12,11 +12,6 @@
         "test": "echo 'no tests defined' && exit 0"
     },
     "main": ".prettierrc.json",
-    "dependencies": {},
-    "devDependencies": {},
-    "peerDependencies": {
-        "prettier": "< 2.5.1"
-    },
     "publishConfig": {
         "access": "public"
     }
