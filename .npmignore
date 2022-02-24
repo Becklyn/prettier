@@ -1,0 +1,14 @@
+/.DS_Store
+/.github
+/.idea
+/.gitignore
+/.travis.yml
+/node_modules
+/package-lock.json
+/tests
+/tsconfig.json
+
+# ignore all .ts when publishing
+*.ts
+*.tsx
+!*.d.ts

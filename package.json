@@ -1,0 +1,21 @@
+{
+    "name": "@becklyn/prettier",
+    "version": "0.0.0",
+    "description": "The commonly used prettier configuration for projects at Becklyn",
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/Becklyn/prettier",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Becklyn/prettier.git"
+    },
+    "scripts": {
+        "test": "echo 'no tests defined' && exit 0"
+    },
+    "main": ".prettierrc.json",
+    "devDependencies": {
+        "prettier": "^2.5.1"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
