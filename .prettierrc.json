@@ -7,14 +7,16 @@
     "bracketSameLine": true,
     "arrowParens": "avoid",
     "importOrder": [
-        "^react(.*)$",
+        "^react$",
         "^next(.*)$",
-        "^@fr(e|a)ym\/(.*)$",
-        "^@mayd\/(.*)$",
+        "^styled-components",
+        "^@fr(e|a)ym/(.*)$",
+        "^@mayd/(.*)$",
         "^[^.@].*",
         "^@(.*)$",
         "^[./]"
     ],
     "importOrderSeparation": false,
-    "importOrderSortSpecifiers": true
+    "importOrderSortSpecifiers": true,
+    "plugins": ["@trivago/prettier-plugin-sort-imports"]
 }
