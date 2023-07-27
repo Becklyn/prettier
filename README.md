@@ -22,5 +22,5 @@ In your `package.json` add the following line:
 You will have to install prettier as a dev dependency, too
 
 ```
-npm install --save-dev prettier
+npm install --save-dev prettier @trivago/prettier-plugin-sort-imports
 ```
