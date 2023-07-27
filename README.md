@@ -8,7 +8,7 @@ Installation
 ------------
 
 ```
-npm install --save-dev @becklyn/prettier
+npm install --save-dev prettier @becklyn/prettier @trivago/prettier-plugin-sort-imports
 ```
 
 In your `package.json` add the following line:
@@ -17,10 +17,4 @@ In your `package.json` add the following line:
 {
     "prettier": "@becklyn/prettier"
 }
-```
-
-You will have to install prettier as a dev dependency, too
-
-```
-npm install --save-dev prettier @trivago/prettier-plugin-sort-imports
 ```
