@@ -9,7 +9,8 @@
         "url": "https://github.com/Becklyn/prettier.git"
     },
     "scripts": {
-        "test": "echo 'no tests defined' && exit 0"
+        "test": "echo 'no tests defined' && exit 0",
+        "format": "prettier --write \"**/*.{ts,tsx,js,mjs,json}\""
     },
     "main": ".prettierrc.mjs",
     "publishConfig": {
