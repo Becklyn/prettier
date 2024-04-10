@@ -11,7 +11,7 @@
     "scripts": {
         "test": "echo 'no tests defined' && exit 0"
     },
-    "main": ".prettierrc.mjs",
+    "main": ".prettierrc.cjs",
     "publishConfig": {
         "access": "public"
     },
