@@ -1,4 +1,4 @@
-{
+const config = {
     "trailingComma": "es5",
     "tabWidth": 4,
     "semi": true,
@@ -18,5 +18,7 @@
     ],
     "importOrderSeparation": false,
     "importOrderSortSpecifiers": true,
-    "plugins": ["@trivago/prettier-plugin-sort-imports"]
+    "plugins": [require.resolve("@trivago/prettier-plugin-sort-imports")]
 }
+
+export default config;

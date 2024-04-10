@@ -11,8 +11,11 @@
     "scripts": {
         "test": "echo 'no tests defined' && exit 0"
     },
-    "main": ".prettierrc.json",
+    "main": ".prettierrc.mjs",
     "publishConfig": {
         "access": "public"
+    },
+    "dependencies": {
+        "@trivago/prettier-plugin-sort-imports": "^4.3.0"
     }
 }
