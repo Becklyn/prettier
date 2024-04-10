@@ -2,6 +2,7 @@
 =====
 
 *   (feature) Add sorting of imports via this project.
+*   (feature) Add sorting css declarations.
 
 2.0.0
 =====

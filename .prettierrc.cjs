@@ -18,5 +18,8 @@ module.exports = {
     ],
     "importOrderSeparation": false,
     "importOrderSortSpecifiers": true,
-    "plugins": [import("@trivago/prettier-plugin-sort-imports")]
+    "plugins": [
+        import("@trivago/prettier-plugin-sort-imports"),
+        import("prettier-plugin-css-order"),
+    ],
 }
