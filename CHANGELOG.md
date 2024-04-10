@@ -1,8 +1,12 @@
-2.0.1
+2.1.0
 =====
 
 *   (feature) Add sorting of imports via this project.
 *   (feature) Add sorting css declarations.
+*   (internal) Add `prettier` as dependency.
+*   (internal) Add `prettier-plugin-css-order` as dependency.
+*   (internal) Write prettier config as mjs.
+*   (internal) Add format command.
 
 2.0.0
 =====
