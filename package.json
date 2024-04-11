@@ -21,5 +21,6 @@
         "postcss": "^8.4.38",
         "prettier": "^3.2.5",
         "prettier-plugin-css-order": "^2.1.2"
-    }
+    },
+    "prettier": "index.json"
 }

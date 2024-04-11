@@ -1,32 +1,30 @@
-2.1.0
-=====
+# 2.1.1
 
-*   (feature) Add sorting of imports via this project.
-*   (feature) Add sorting css declarations.
-*   (internal) Add `prettier` as dependency.
-*   (internal) Add `prettier-plugin-css-order` as dependency.
-*   (internal) Write prettier config as mjs.
-*   (internal) Add format command.
+- (bug) Allow use in VSCode
+- (improvement) Improve documentation
+- (internal) Write prettier config as json
 
-2.0.0
-=====
+# 2.1.0
 
-*   (bc) Add sort imports.
+- (feature) Add sorting of imports via this project.
+- (feature) Add sorting css declarations.
+- (internal) Add `prettier` as dependency.
+- (internal) Add `prettier-plugin-css-order` as dependency.
+- (internal) Write prettier config as mjs.
+- (internal) Add format command.
 
+# 2.0.0
 
-1.0.2
-=====
+- (bc) Add sort imports.
 
-*   (bug) Fix `package.json`.
+# 1.0.2
 
+- (bug) Fix `package.json`.
 
-1.0.1
-=====
+# 1.0.1
 
-*   (bug) Correctly add prettier as a peer dependency.
+- (bug) Correctly add prettier as a peer dependency.
 
+# 1.0.0
 
-1.0.0
-=====
-
-*   (feature) Add Becklyn code style for prettier.
+- (feature) Add Becklyn code style for prettier.
