@@ -8,7 +8,7 @@ Installation
 ------------
 
 ```
-npm install --save-dev prettier @becklyn/prettier @trivago/prettier-plugin-sort-imports
+npm install --save-dev @becklyn/prettier
 ```
 
 In your `package.json` add the following line:

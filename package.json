@@ -10,9 +10,9 @@
     },
     "scripts": {
         "test": "echo 'no tests defined' && exit 0",
-        "format": "prettier --write \"**/*.{ts,tsx,js,mjs,json}\""
+        "format": "prettier --write \"**/*.{ts,tsx,js,mjs,json,scss,css}\""
     },
-    "main": ".prettierrc.mjs",
+    "main": "index.json",
     "publishConfig": {
         "access": "public"
     },
